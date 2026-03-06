@@ -1,0 +1,80 @@
+{
+  "voices": {
+    "BYTE": {
+      "voice_id": "{{BYTE_VOICE_ID}}",
+      "name": "Byte",
+      "settings": {
+        "stability": 0.50,
+        "similarity_boost": 0.80,
+        "style": 0.30,
+        "use_speaker_boost": true
+      },
+      "emotion_overrides": {
+        "excited": { "style": 0.65, "stability": 0.40 },
+        "sarcastic": { "style": 0.50, "stability": 0.55 },
+        "surprised": { "style": 0.60, "stability": 0.35 },
+        "thoughtful": { "style": 0.20, "stability": 0.65 }
+      }
+    },
+    "PIXEL": {
+      "voice_id": "{{PIXEL_VOICE_ID}}",
+      "name": "Pixel",
+      "settings": {
+        "stability": 0.40,
+        "similarity_boost": 0.85,
+        "style": 0.50,
+        "use_speaker_boost": true
+      },
+      "emotion_overrides": {
+        "excited": { "style": 0.80, "stability": 0.30 },
+        "sarcastic": { "style": 0.60, "stability": 0.50 },
+        "surprised": { "style": 0.75, "stability": 0.30 },
+        "thoughtful": { "style": 0.30, "stability": 0.55 }
+      }
+    },
+    "PASQUALINO": {
+      "voice_id": "{{PASQUALINO_VOICE_ID}}",
+      "name": "Pasqualino",
+      "settings": {
+        "stability": 0.65,
+        "similarity_boost": 0.80,
+        "style": 0.40,
+        "use_speaker_boost": true
+      },
+      "emotion_overrides": {
+        "sarcastic": { "style": 0.55, "stability": 0.60 }
+      }
+    },
+    "ESTAGIARIO": {
+      "voice_id": "{{ESTAGIARIO_VOICE_ID}}",
+      "name": "Estagiário",
+      "settings": {
+        "stability": 0.30,
+        "similarity_boost": 0.75,
+        "style": 0.60,
+        "use_speaker_boost": true
+      },
+      "emotion_overrides": {
+        "surprised": { "style": 0.80, "stability": 0.25 }
+      }
+    },
+    "CLAUDE": {
+      "voice_id": "{{CLAUDE_VOICE_ID}}",
+      "name": "Claude",
+      "settings": {
+        "stability": 0.70,
+        "similarity_boost": 0.80,
+        "style": 0.25,
+        "use_speaker_boost": true
+      },
+      "emotion_overrides": {
+        "sarcastic": { "style": 0.40, "stability": 0.65 }
+      }
+    }
+  },
+  "model_id": "eleven_multilingual_v2",
+  "output_format": "mp3_44100_128",
+  "pause_normal_ms": 150,
+  "pause_fast_ms": 50,
+  "pause_interrupt_ms": 0
+}

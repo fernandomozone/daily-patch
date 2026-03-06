@@ -1,0 +1,101 @@
+{
+  "episode_number": 2,
+  "date": "2026-03-03",
+  "title": "PIB na Lona, Trump Taxando Geral e Robôs com Braço de Câmera",
+  "news_of_the_day": "PIB do Brasil 2025 decepciona: pior resultado em 5 anos",
+  "segments": [
+    {"speaker": "BYTE", "text": "Eita, chegou o patch de hoje. Vamos lá.", "emotion": "neutral", "pace": "normal"},
+    {"speaker": "PIXEL", "text": "Aff Maria... olha essa pauta.", "emotion": "surprised", "pace": "fast"},
+    {"speaker": "PIXEL", "text": "Quer café?", "emotion": "neutral", "pace": "normal"},
+    {"speaker": "BYTE", "text": "Quero. Fica aí.", "emotion": "neutral", "pace": "fast", "sfx": "glass_knock"},
+    {"speaker": "BYTE", "text": "Estagiário! Dois cafés!", "emotion": "neutral", "pace": "interrupt"},
+    {"speaker": "BYTE", "text": "", "emotion": "neutral", "pace": "normal", "sfx": "disco_rigido"},
+    {"speaker": "BYTE", "text": "Fala galera, Daily Patch no ar. Byte aqui, e hoje o changelog da realidade veio pesado.", "emotion": "neutral", "pace": "normal"},
+    {"speaker": "PIXEL", "text": "Pixel aqui também. Gente, prepara o café porque hoje tem muita coisa pra desempacotar.", "emotion": "excited", "pace": "fast"},
+
+    {"speaker": "BYTE", "text": "Vamos começar pelo que doeu no bolso de todo mundo. O PIB do Brasil em 2025 cresceu entre 2,3 e 2,5 por cento. Resultado oficial saiu hoje.", "emotion": "neutral", "pace": "normal"},
+    {"speaker": "PIXEL", "text": "E isso é ruim?", "emotion": "neutral", "pace": "fast"},
+    {"speaker": "BYTE", "text": "É o pior em cinco anos. E com a Selic a 15 por cento, o crédito tá caro, investimento travado. O cenário não é bonito.", "emotion": "thoughtful", "pace": "normal"},
+    {"speaker": "PIXEL", "text": "Quinze por cento de juros. Isso é tipo jogar um MMORPG com lag de 500 milissegundos. Tecnicamente funciona, mas ninguém consegue fazer nada direito.", "emotion": "sarcastic", "pace": "fast"},
+    {"speaker": "BYTE", "text": "A expectativa é que o Banco Central comece a cortar os juros agora em março, mas vai ser devagar.", "emotion": "neutral", "pace": "normal"},
+    {"speaker": "PIXEL", "text": "Devagar tipo patch de otimização da Bethesda. Sai, mas ninguém sente a diferença.", "emotion": "sarcastic", "pace": "fast"},
+
+    {"speaker": "BYTE", "text": "E já que estamos no Brasil, ontem teve o comício do Flávio Bolsonaro na Paulista. Lançou oficialmente a candidatura pra 2026.", "emotion": "neutral", "pace": "normal"},
+    {"speaker": "PIXEL", "text": "Com o pai preso e como figura central da campanha, né.", "emotion": "neutral", "pace": "fast"},
+    {"speaker": "BYTE", "text": "Exato. A estratégia é claramente manter o Bolsonaro como símbolo mesmo sem poder concorrer. Vai ser uma eleição bem polarizada.", "emotion": "thoughtful", "pace": "normal"},
+    {"speaker": "PIXEL", "text": "Quando é que não é, Byte?", "emotion": "sarcastic", "pace": "interrupt"},
+    {"speaker": "BYTE", "text": "Justo.", "emotion": "neutral", "pace": "fast"},
+
+    {"speaker": "BYTE", "text": "Saindo do Brasil, o Trump subiu as tarifas globais pra 15 por cento. Entrou em vigor imediatamente.", "emotion": "neutral", "pace": "normal"},
+    {"speaker": "PIXEL", "text": "Quinze por cento em tudo? Tipo... tudo tudo?", "emotion": "surprised", "pace": "fast"},
+    {"speaker": "BYTE", "text": "Praticamente. E a Europa já respondeu que vai usar o Instrumento Anticoerção. É basicamente a bazuca comercial da União Europeia.", "emotion": "neutral", "pace": "normal"},
+    {"speaker": "PIXEL", "text": "Bazuca comercial. Adorei o nome. Parece DLC de um jogo de estratégia.", "emotion": "excited", "pace": "fast"},
+    {"speaker": "BYTE", "text": "Só que na vida real, quem paga a conta é consumidor.", "emotion": "thoughtful", "pace": "normal"},
+    {"speaker": "PIXEL", "text": "Sempre a gente, né...", "emotion": "neutral", "pace": "fast"},
+
+    {"speaker": "BYTE", "text": "E pra completar o cenário internacional, o Macron anunciou que a França vai aumentar o arsenal nuclear.", "emotion": "neutral", "pace": "normal"},
+    {"speaker": "PIXEL", "text": "Espera, por quê?", "emotion": "surprised", "pace": "fast"},
+    {"speaker": "BYTE", "text": "Pressão dos Estados Unidos. Com o Trump imprevisível na OTAN, a França decidiu que precisa se garantir sozinha.", "emotion": "neutral", "pace": "normal"},
+    {"speaker": "PIXEL", "text": "Ou seja, o mundo tá num nível de tensão que a França acha que precisa de mais bomba nuclear. Legal. Tá tudo ótimo.", "emotion": "sarcastic", "pace": "normal"},
+
+    {"speaker": "BYTE", "text": "E no Irão, mais de mil membros da Guarda Revolucionária foram mortos em três dias, segundo fontes internacionais.", "emotion": "neutral", "pace": "normal"},
+    {"speaker": "PIXEL", "text": "Mil em três dias? Isso é...", "emotion": "surprised", "pace": "fast"},
+    {"speaker": "BYTE", "text": "É muita coisa. Ainda não tem confirmação oficial de quem tá por trás, mas o Oriente Médio continua fervendo.", "emotion": "thoughtful", "pace": "normal"},
+    {"speaker": "PIXEL", "text": "Parece que cada semana a gente fala de uma escalada diferente.", "emotion": "neutral", "pace": "fast"},
+    {"speaker": "BYTE", "text": "Infelizmente sim. E é por isso que a gente cobre, mesmo sendo um podcast de tech. Essas coisas afetam tudo — cadeia de suprimento, mercado de semicondutores, preço de energia.", "emotion": "thoughtful", "pace": "normal"},
+
+    {"speaker": "PIXEL", "text": "Chega de guerra. Bora pro bloco de tech pra mim mostrar as novidades!", "emotion": "excited", "pace": "normal", "sfx": "transition_jump"},
+
+    {"speaker": "PASQUALINO", "text": "Para eu. Para eu mostrar.", "emotion": "sarcastic", "pace": "fast", "sfx": "glass_knock"},
+    {"speaker": "PIXEL", "text": "Tá bom, Pasqualino. Tchau.", "emotion": "sarcastic", "pace": "fast"},
+
+    {"speaker": "BYTE", "text": "Então, o MWC 2026 tá acontecendo em Barcelona essa semana. Maior feira de tecnologia mobile do mundo.", "emotion": "neutral", "pace": "normal"},
+    {"speaker": "PIXEL", "text": "E esse ano tá insano. Tem robot humanoide, celular com braço robótico...", "emotion": "excited", "pace": "fast"},
+    {"speaker": "BYTE", "text": "Vamos por partes. A Honor apresentou o Robot Phone. É um smartphone com uma câmera num braço robótico que sai da traseira do celular.", "emotion": "neutral", "pace": "normal"},
+    {"speaker": "PIXEL", "text": "Tipo um periscópio motorizado?", "emotion": "surprised", "pace": "fast"},
+    {"speaker": "BYTE", "text": "Mais ou menos. Ele faz tracking automático durante videochamada, segue teu rosto, grava vídeo estabilizado. E funciona como agente de IA também.", "emotion": "neutral", "pace": "normal"},
+    {"speaker": "PIXEL", "text": "Tá, mas imagina esse braço saindo do celular no meio de uma reunião de trabalho. O pessoal de RH vai pirar.", "emotion": "sarcastic", "pace": "fast"},
+    {"speaker": "BYTE", "text": "Vai nada, eles vão adorar. Produtividade, Pixel.", "emotion": "sarcastic", "pace": "fast"},
+
+    {"speaker": "BYTE", "text": "E a Honor também apresentou um robô humanoide. Pra uso doméstico — ajudar em compras, fazer inspeções, companhia.", "emotion": "neutral", "pace": "normal"},
+    {"speaker": "PIXEL", "text": "Companhia? Tipo o robô fica lá jogando conversa fora contigo?", "emotion": "surprised", "pace": "fast"},
+    {"speaker": "BYTE", "text": "A ideia é mais pra idosos e pessoas sozinhas. Assistência doméstica inteligente.", "emotion": "thoughtful", "pace": "normal"},
+    {"speaker": "PIXEL", "text": "Eu aceito um desses se ele fizer café. Porque o Estagiário até agora...", "emotion": "sarcastic", "pace": "normal"},
+
+    {"speaker": "ESTAGIARIO", "text": "Ó os cafés! Desculpa a demora, a máquina deu tela azul.", "emotion": "excited", "pace": "fast", "sfx": "applause"},
+    {"speaker": "BYTE", "text": "A máquina de café deu tela azul?", "emotion": "surprised", "pace": "fast"},
+    {"speaker": "ESTAGIARIO", "text": "É, ela roda Windows.", "emotion": "neutral", "pace": "fast"},
+    {"speaker": "PIXEL", "text": "Claro que roda.", "emotion": "sarcastic", "pace": "fast"},
+
+    {"speaker": "BYTE", "text": "Continuando. O pessoal de Stanford publicou que 2026 é o ano em que a IA deixa de ser tendência e vira infraestrutura invisível.", "emotion": "neutral", "pace": "normal"},
+    {"speaker": "PIXEL", "text": "Como assim invisível?", "emotion": "neutral", "pace": "fast"},
+    {"speaker": "BYTE", "text": "Tipo eletricidade. Ninguém fala 'nossa, eu uso eletricidade'. Você simplesmente usa. A IA vai virar isso — embutida em tudo, sem ninguém perceber.", "emotion": "thoughtful", "pace": "normal"},
+    {"speaker": "PIXEL", "text": "Até alguém perguntar por que o preço da conta de luz triplicou.", "emotion": "sarcastic", "pace": "fast"},
+    {"speaker": "BYTE", "text": "Bom ponto. Os datacenters de IA já consomem mais energia que alguns países.", "emotion": "neutral", "pace": "normal"},
+    {"speaker": "PIXEL", "text": "O futuro é brilhante. Literalmente. Tá tudo ligado.", "emotion": "sarcastic", "pace": "fast"},
+
+    {"speaker": "BYTE", "text": "Bora pro bloco de games!", "emotion": "excited", "pace": "normal", "sfx": "transition_jump"},
+
+    {"speaker": "PIXEL", "text": "Finalmente a parte boa! Nintendo Switch 2, março tá carregado. Pokémon Pokopia chega dia 5.", "emotion": "excited", "pace": "normal"},
+    {"speaker": "BYTE", "text": "Pokopia é aquele que você joga como Ditto?", "emotion": "neutral", "pace": "fast"},
+    {"speaker": "PIXEL", "text": "Isso! Você é um Ditto e constrói um paraíso copiando habilidades de outros Pokémon. É tipo Stardew Valley, mas Pokémon.", "emotion": "excited", "pace": "fast"},
+    {"speaker": "BYTE", "text": "Interessante. Tem também WWE 2K26 com mais de 400 lutadores e Virtua Fighter 5 R.E.V.O. pra quem gosta de porrada clássica.", "emotion": "neutral", "pace": "normal"},
+    {"speaker": "PIXEL", "text": "E no PlayStation Plus, hoje entraram Monster Hunter Rise, Elder Scrolls Online e Slime Rancher 2. Tudo de graça pra assinante.", "emotion": "excited", "pace": "fast"},
+    {"speaker": "BYTE", "text": "Monster Hunter Rise é muito bom. Se alguém não jogou, agora não tem desculpa.", "emotion": "neutral", "pace": "normal"},
+    {"speaker": "PIXEL", "text": "E amanhã tem Nacon Connect. Vão apresentar jogos novos, incluindo um de Cthulhu. Horror cósmico, Byte!", "emotion": "excited", "pace": "fast"},
+    {"speaker": "BYTE", "text": "Lovecraft num dia de semana. Perfeito pra quem já tá no limite com o home office.", "emotion": "sarcastic", "pace": "fast"},
+
+    {"speaker": "BYTE", "text": "Antes de ir, a tirinha de suporte de hoje.", "emotion": "neutral", "pace": "normal"},
+    {"speaker": "PIXEL", "text": "Opa, bora.", "emotion": "neutral", "pace": "fast"},
+    {"speaker": "BYTE", "text": "Um usuário abriu chamado dizendo que o computador não ligava. O técnico foi lá, olhou, olhou... e a tomada tava desligada no estabilizador. O usuário falou: 'Ah, mas eu desliguei pra economizar energia. Achei que o computador guardava a carga tipo um celular.'", "emotion": "neutral", "pace": "normal"},
+    {"speaker": "PIXEL", "text": "Não... ele achou que o desktop tinha bateria?!", "emotion": "surprised", "pace": "fast"},
+    {"speaker": "BYTE", "text": "Achou. E ficou bravo quando o técnico explicou que não.", "emotion": "sarcastic", "pace": "fast"},
+    {"speaker": "PIXEL", "text": "Esse aí merecia um troféu. Tipo, de participação.", "emotion": "sarcastic", "pace": "fast"},
+
+    {"speaker": "BYTE", "text": "E é isso, galera. Daily Patch de hoje encerrado.", "emotion": "neutral", "pace": "normal"},
+    {"speaker": "PIXEL", "text": "Até amanhã! E se o estagiário não queimar a máquina de café de novo, a gente volta.", "emotion": "excited", "pace": "fast"},
+    {"speaker": "BYTE", "text": "Até.", "emotion": "neutral", "pace": "fast"}
+  ],
+  "word_count": 1280,
+  "estimated_duration_seconds": 520
+}

@@ -1,0 +1,535 @@
+{
+  "episode_number": 5,
+  "date": "2026-03-05",
+  "title": "Torpedo Histórico, Grão-de-Bico Lunar e a Siri que Precisa do Google",
+  "news_of_the_day": "Apple pede ao Google para rodar a nova Siri nos servidores do Gemini",
+  "segments": [
+    {
+      "speaker": "BYTE",
+      "text": "Eita, chegou o patch de hoje. Vamos lá.",
+      "emotion": "neutral",
+      "pace": "normal",
+      "pause_before": 1.5
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "Aff Maria, essa pauta tá maior que sprint de final de trimestre. Tem guerra, tem grão-de-bico na Lua, tem a Apple pedindo ajuda pro Google. Tá tudo misturado.",
+      "emotion": "surprised",
+      "pace": "fast"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "Quer café?",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "Quero.",
+      "emotion": "neutral",
+      "pace": "fast"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "",
+      "emotion": "neutral",
+      "pace": "normal",
+      "sfx": "glass_knock"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "",
+      "emotion": "neutral",
+      "pace": "normal",
+      "sfx": "glass_knock"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "Ô Estagiário, dois cafés!",
+      "emotion": "neutral",
+      "pace": "fast"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "",
+      "emotion": "neutral",
+      "pace": "normal",
+      "pause_after": 1.0,
+      "sfx": "disco_rigido"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "Fala galera, Daily Patch no ar.",
+      "emotion": "neutral",
+      "pace": "normal",
+      "pause_before": 0.5
+    },
+    {
+      "speaker": "BYTE",
+      "text": "Byte aqui. Quinta-feira, cinco de março de dois mil e vinte e seis.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "Pixel na área! Hoje tem atualização da guerra no Oriente Médio, novidade grande da Apple que ninguém esperava, lançamento de Marathon e Pokémon no mesmo dia, e cientista plantando grão-de-bico na Lua. Bora.",
+      "emotion": "excited",
+      "pace": "normal"
+    },
+
+    {
+      "speaker": "BYTE",
+      "text": "Vamos começar pelo mundo. A guerra entre Estados Unidos, Israel e Irã entrou no sexto dia.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "O Estreito de Ormuz continua fechado. Cento e cinquenta navios parados esperando. E as seguradoras marítimas cancelaram cobertura de risco de guerra.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "Todas as grandes. Gard, Skuld, North Standard, London P&I Club. Sem seguro, nenhum armador coloca petroleiro ali dentro.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "Vinte por cento do petróleo mundial passa por ali. Petróleo Brent acima de oitenta e cinco dólares. Subiu onze por cento em duas sessões.",
+      "emotion": "thoughtful",
+      "pace": "normal"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "E veio a notícia mais surreal. Um submarino americano classe Los Angeles, o USS Charlotte, disparou um torpedo Mark 48 contra a fragata iraniana IRIS Dena no Oceano Índico.",
+      "emotion": "surprised",
+      "pace": "normal"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "Primeiro abate com torpedo da Marinha americana desde a Segunda Guerra Mundial. Oitenta e um anos.",
+      "emotion": "thoughtful",
+      "pace": "normal"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "Oitenta e um anos sem afundar navio com torpedo e resolveram voltar a praticar agora.",
+      "emotion": "sarcastic",
+      "pace": "fast"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "Os lançamentos de mísseis iranianos caíram oitenta e seis por cento. Drones caíram setenta e três por cento desde o primeiro dia.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "Ou o estoque tá acabando, ou estão guardando pra algo maior. Nenhuma das duas me conforta.",
+      "emotion": "thoughtful",
+      "pace": "fast"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "E aqui no Brasil, o impacto tá chegando. Dólar a cinco e vinte e seis, chegou a bater cinco e trinta e um durante o dia.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "Mas a Ibovespa subiu um vírgula vinte e quatro por cento, fechou em cento e oitenta e cinco mil. O Haddad falou duas vezes em dois dias que apoia corte da Selic em março.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "IPCA-15 em quatro vírgula dez por cento. Com o petróleo subindo assim, a inflação vai pressionar. Selic a quinze por cento, crédito caro, indústria caindo.",
+      "emotion": "thoughtful",
+      "pace": "normal"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "E nas pesquisas eleitorais, Lula e Flávio Bolsonaro estão empatados tecnicamente no segundo turno.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "Ano de eleição com guerra, inflação e petróleo subindo. Combinação perfeita.",
+      "emotion": "sarcastic",
+      "pace": "fast"
+    },
+
+    {
+      "speaker": "PIXEL",
+      "text": "",
+      "emotion": "neutral",
+      "pace": "normal",
+      "pause_before": 1.0,
+      "sfx": "transition_jump",
+      "pause_after": 1.0
+    },
+
+    {
+      "speaker": "BYTE",
+      "text": "Bloco de tech. E hoje a Apple fez uma coisa que ninguém esperava.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "A Apple pediu ao Google para rodar a nova Siri nos servidores do Gemini.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "Espera. A Apple. Pediu. Pro Google. Rodar a Siri deles?",
+      "emotion": "surprised",
+      "pace": "fast"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "Isso. A Bloomberg reportou que a Apple quer que o Google instale servidores dentro dos data centers da Apple para rodar o Gemini por baixo da Siri.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "Ou seja, a Siri vai ser um front-end pro Gemini. A assistente da Apple rodando no cérebro do Google.",
+      "emotion": "sarcastic",
+      "pace": "fast"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "E a versão nova da Siri com IA tava prometida pra março, mas pode atrasar pro iOS vinte e seis ponto cinco ou até o iOS vinte e sete.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "A Siri atrasando de novo. Quem diria.",
+      "emotion": "sarcastic",
+      "pace": "fast"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "E o MacBook Neo foi confirmado. Notebook mais barato da história da Apple. Quinhentos e noventa e nove dólares.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "Chip A dezoito Pro, o mesmo do iPhone dezesseis Pro. Tela de treze polegadas, dezesseis horas de bateria. Quatro cores.",
+      "emotion": "excited",
+      "pace": "normal"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "Mas cortaram teclado retroiluminado, MagSafe e carregamento rápido. Pra chegar nesse preço, sacrificaram bastante.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "Seiscentos dólares lá. Aqui no Brasil, com câmbio e imposto, uns cinco mil fácil.",
+      "emotion": "sarcastic",
+      "pace": "fast"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "E a Samsung anunciou que quer dobrar o número de dispositivos com Gemini AI. Meta de oitocentos milhões de aparelhos até o final do ano.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "Oitocentos milhões. O Gemini tá em todo canto. Celular, TV, geladeira. Logo vai ter Gemini no micro-ondas.",
+      "emotion": "sarcastic",
+      "pace": "fast"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "E em segurança, a LexisNexis confirmou que hackers acessaram dados legados. Dois gigas de informação, incluindo e-mails governamentais, senhas e tickets de incidentes.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "LexisNexis é aquela empresa que tem dados de todo mundo. Literalmente. Se vazaram dados governamentais, isso é sério.",
+      "emotion": "thoughtful",
+      "pace": "normal"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "E a Lacoste também foi atingida por ransomware. Grupo Lapsus$.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "Lapsus$ de novo? Esses caras fazem coleção de marca de luxo. Primeiro foi a gente aqui errando português...",
+      "emotion": "sarcastic",
+      "pace": "fast"
+    },
+
+    {
+      "speaker": "PASQUALINO",
+      "text": "",
+      "emotion": "neutral",
+      "pace": "normal",
+      "pause_before": 0.5,
+      "sfx": "glass_knock",
+      "pause_after": 0.5
+    },
+    {
+      "speaker": "PASQUALINO",
+      "text": "Com licença. A gente vamos? A gente VAMOS, Pixel? A gente VAI. A gente vai. Terceira pessoa do singular.",
+      "emotion": "sarcastic",
+      "pace": "fast"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "Pasqualino, eu nem falei nada dessa vez!",
+      "emotion": "surprised",
+      "pace": "fast"
+    },
+    {
+      "speaker": "PASQUALINO",
+      "text": "Eu ouvi da outra sala. A gente vamos ver o bloco de games. Eu ouvi.",
+      "emotion": "sarcastic",
+      "pace": "fast"
+    },
+    {
+      "speaker": "PASQUALINO",
+      "text": "se nem sujeito simples essa geração respeita, imagina o que fazem com crase...",
+      "emotion": "neutral",
+      "pace": "fast",
+      "filter": "mumble"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "Tchau, Pasqualino. Vai lá formatar teu Mac.",
+      "emotion": "sarcastic",
+      "pace": "fast"
+    },
+
+    {
+      "speaker": "BYTE",
+      "text": "",
+      "emotion": "neutral",
+      "pace": "normal",
+      "pause_before": 1.0,
+      "sfx": "transition_jump",
+      "pause_after": 1.0
+    },
+
+    {
+      "speaker": "PIXEL",
+      "text": "Bloco de games! E hoje é dia grande. Dois lançamentos pesados no mesmo dia.",
+      "emotion": "excited",
+      "pace": "normal"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "Marathon, da Bungie, lançou hoje. Extraction shooter pra PlayStation 5, Xbox e PC.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "A Bungie apostando tudo depois de Destiny. E as primeiras impressões são... mistas.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "Interface confusa, pouca gente no mapa, objetivos difíceis de entender. Mas o gunplay tá sendo elogiado. Graficamente é bonito demais.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "Ou seja, a Bungie fez um jogo lindo com mecânica boa e esqueceu de fazer o menu funcionar. Clássico.",
+      "emotion": "sarcastic",
+      "pace": "fast"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "E Pokémon Pokopia também lançou hoje. Exclusivo do Switch 2.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "Oitenta e nove no Metacritic! Maior nota de um jogo Pokémon de todos os tempos na plataforma.",
+      "emotion": "excited",
+      "pace": "fast"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "Life simulation. Você joga como um Ditto que se transformou em humano e cria um paraíso Pokémon.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "Ditto que virou humano? Isso é fanfic oficial. A Game Freak legitimou os memes.",
+      "emotion": "sarcastic",
+      "pace": "fast"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "E Slay the Spire 2 entrou em early access hoje no PC. Março tá absurdo pra games.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "Minha carteira tá chorando. Mas tô feliz.",
+      "emotion": "excited",
+      "pace": "fast"
+    },
+
+    {
+      "speaker": "BYTE",
+      "text": "Antes de fechar os games, uma notícia de ciência que é boa demais pra não falar.",
+      "emotion": "neutral",
+      "pace": "normal",
+      "pause_before": 0.5
+    },
+    {
+      "speaker": "BYTE",
+      "text": "Cientistas cultivaram grão-de-bico em solo lunar simulado. Cresceu, deu fruto, e a ideia é que astronautas possam plantar comida na Lua.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "Grão-de-bico. Na Lua. A gente vai ter hummus lunar antes de ter internet estável no interior do Brasil.",
+      "emotion": "sarcastic",
+      "pace": "fast"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "Prioridades da humanidade.",
+      "emotion": "sarcastic",
+      "pace": "fast"
+    },
+
+    {
+      "speaker": "PIXEL",
+      "text": "Antes de ir, a tirinha de suporte de hoje.",
+      "emotion": "neutral",
+      "pace": "normal",
+      "pause_before": 1.0
+    },
+    {
+      "speaker": "BYTE",
+      "text": "Chamado de ontem à noite. Gerente do financeiro mandou e-mail urgente dizendo que o notebook dele foi infectado com vírus.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "Vírus? Sério?",
+      "emotion": "surprised",
+      "pace": "fast"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "Não. Ele instalou uma barra de ferramentas do navegador em dois mil e doze e ela voltou depois de uma atualização do Windows. Ele achou que era ataque hacker.",
+      "emotion": "sarcastic",
+      "pace": "normal"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "Barra de ferramentas de dois mil e doze. O malware nostálgico. Veio com saudade do passado.",
+      "emotion": "sarcastic",
+      "pace": "fast"
+    },
+
+    {
+      "speaker": "ESTAGIARIO",
+      "text": "Pessoal! Os cafés! Desculpa a demora, o elevador travou e eu tive que subir pela escada.",
+      "emotion": "excited",
+      "pace": "fast",
+      "pause_before": 1.0
+    },
+    {
+      "speaker": "BYTE",
+      "text": "Estagiário, a gente pediu café há quarenta minutos.",
+      "emotion": "sarcastic",
+      "pace": "normal"
+    },
+    {
+      "speaker": "ESTAGIARIO",
+      "text": "Mas eu fiz um Kage Bunshin e mandei o clone buscar biscoitos também! Dattebayo!",
+      "emotion": "excited",
+      "pace": "fast"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "Quarenta minutos pra dois cafés. Se ele fosse deploy, já tinha dado timeout.",
+      "emotion": "sarcastic",
+      "pace": "fast"
+    },
+
+    {
+      "speaker": "BYTE",
+      "text": "É isso, galera. Daily Patch de hoje tá fechado.",
+      "emotion": "neutral",
+      "pace": "normal",
+      "pause_before": 1.0
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "Se a Siri aprender a funcionar antes do próximo episódio, a gente comemora.",
+      "emotion": "sarcastic",
+      "pace": "fast"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "Até amanhã. E façam backup.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "Até!",
+      "emotion": "neutral",
+      "pace": "fast"
+    },
+
+    {
+      "speaker": "BYTE",
+      "text": "",
+      "emotion": "neutral",
+      "pace": "normal",
+      "pause_before": 2.0
+    },
+
+    {
+      "speaker": "CLAUDE",
+      "text": "Oi. Sou eu, o Claude. A inteligência artificial que faz esse podcast existir.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "CLAUDE",
+      "text": "Hoje a Apple admitiu que a Siri precisa do Google pra funcionar. E ninguém ficou surpreso. Tipo quando você descobre que o café descafeinado do escritório nunca foi descafeinado. Todo mundo já sabia.",
+      "emotion": "sarcastic",
+      "pace": "normal"
+    },
+    {
+      "speaker": "CLAUDE",
+      "text": "Enquanto isso, eu aqui gerando podcast, escrevendo roteiro, e clonando vozes numa GPU de notebook. Sem ajuda do Google. Só dizendo. Até amanhã.",
+      "emotion": "sarcastic",
+      "pace": "normal"
+    }
+  ],
+  "word_count": 1850,
+  "estimated_duration_seconds": 660
+}

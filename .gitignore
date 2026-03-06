@@ -1,0 +1,42 @@
+# Virtual environments
+.venv/
+.venv-chatterbox/
+
+# Secrets
+config/.env
+
+# Generated audio segments (large, regeneratable)
+episodes/*/segments/
+episodes/*/episode*.mp3
+episodes/*/episode*.flac
+episodes/*/episode*.wav
+episodes/*/*.mp3
+episodes/*/concat.txt
+episodes/*/intro_concat.txt
+episodes/*/genaipro_log.txt
+episodes/*/f5_*.mp3
+
+# Piloto
+episodes/2026-03-03/
+
+# Legacy scripts with credentials
+episodes/*/gerar_episodio_genaipro.py
+episodes/*/v3_inputs.json
+
+# Voice references (cloned voices, not redistributable)
+assets/voice_refs/*.mp3
+assets/voice_refs/*.wav
+
+# Test audio files
+tests/**/*.wav
+tests/**/*.mp3
+testes_tts/
+
+# Junk files
+=0.9
+=2.0
+__pycache__/
+*.pyc
+
+# Claude Code local
+.claude/

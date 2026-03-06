@@ -1,0 +1,734 @@
+{
+  "episode_number": 6,
+  "date": "2026-03-06",
+  "title": "Trump Quer Escolher Líder do Irã, Cisco Nota Dez em Vulnerabilidade e Trinta Agentes AI Substituem Trinta Devs",
+  "news_of_the_day": "Engenheiro substitui equipe de 30 pessoas por 30 agentes AI e gera 44 mil linhas de código em 12 dias",
+  "segments": [
+    {
+      "speaker": "BYTE",
+      "text": "Eita, chegou o patch de hoje. Vamos lá.",
+      "emotion": "neutral",
+      "pace": "normal",
+      "pause_before": 1.5
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "Aff Maria, sexta-feira e a pauta não dá folga. Tem guerra virando reality show, Cisco com nota dez em vulnerabilidade, e um cara que trocou a equipe inteira por robô. Sexta-feira em TI, o dia que todo mundo reza pra nada explodir.",
+      "emotion": "surprised",
+      "pace": "fast"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "Quer café?",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "Quero.",
+      "emotion": "neutral",
+      "pace": "fast"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "",
+      "emotion": "neutral",
+      "pace": "normal",
+      "sfx": "glass_knock"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "",
+      "emotion": "neutral",
+      "pace": "normal",
+      "sfx": "glass_knock"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "Ô Estagiário, dois cafés!",
+      "emotion": "neutral",
+      "pace": "fast"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "",
+      "emotion": "neutral",
+      "pace": "normal",
+      "pause_after": 1.0,
+      "sfx": "disco_rigido"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "Fala galera, Daily Patch no ar.",
+      "emotion": "neutral",
+      "pace": "normal",
+      "pause_before": 0.5
+    },
+    {
+      "speaker": "BYTE",
+      "text": "Byte aqui. Sexta-feira, seis de março de dois mil e vinte e seis.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "Pixel na área! Hoje a gente fala da guerra que virou disputa por regime change, uma vulnerabilidade nota dez que deixou o mundo da infra em pânico, um engenheiro que demitiu trinta devs e botou IA no lugar, e o Slay the Spire 2 batendo recorde. Bora.",
+      "emotion": "excited",
+      "pace": "normal"
+    },
+
+    {
+      "speaker": "BYTE",
+      "text": "Vamos pro mundo. A guerra entre Estados Unidos, Israel e Irã entrou no sétimo dia.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "E o Trump soltou ontem que quer ter papel na escolha do próximo líder do Irã.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "Espera. O presidente dos Estados Unidos quer escolher o líder de outro país? Isso tem nome, Byte.",
+      "emotion": "surprised",
+      "pace": "fast"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "Regime change. Israel já deixou claro que esse é o objetivo. Destruíram o complexo do líder supremo Khamenei. Bombardearam academia militar, infraestrutura de saúde, áreas residenciais em Teerã.",
+      "emotion": "thoughtful",
+      "pace": "normal"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "A OMS identificou treze ataques a infraestrutura de saúde no Irã e um no Líbano. Hospital. Isso é crime de guerra.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "E não é qualquer hospital. Estamos falando de centros médicos em áreas urbanas, com pacientes internados. A justificativa oficial é que eram alvos militares adjacentes.",
+      "emotion": "thoughtful",
+      "pace": "normal"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "Adjacente. Essa palavra faz muito trabalho pesado nessa frase.",
+      "emotion": "sarcastic",
+      "pace": "fast"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "E o Senado americano votou cinquenta e três a quarenta e sete contra exigir aprovação do Congresso pra continuar a guerra. Ou seja, o Trump tem carta branca.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "Carta branca pra continuar bombardeando sem supervisão legislativa. Democracia em ação.",
+      "emotion": "sarcastic",
+      "pace": "fast"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "O argumento dos senadores que votaram a favor foi que interferir agora enfraqueceria a posição negociadora dos Estados Unidos.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "Posição negociadora? Que negociação? O ministro das Relações Exteriores do Irã disse que não tem razão pra negociar com os Estados Unidos. Que Washington não é confiável.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "O Irã continua atacando. Sete mísseis balísticos contra os Emirados, seis interceptados, um atingiu o território. Jebel Ali, um dos portos mais movimentados do mundo, suspendeu operações.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "Jebel Ali é porto de transbordo pra metade do Golfo Pérsico. Se isso continuar, o impacto nas cadeias de suprimento vai ser brutal.",
+      "emotion": "thoughtful",
+      "pace": "normal"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "Mais de mil duzentos e trinta mortos no Irã. Seis soldados americanos. Onze em Israel. E isso só os números confirmados.",
+      "emotion": "thoughtful",
+      "pace": "normal"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "Assimétrico demais. Mil duzentos e trinta contra dezessete. Esses números falam por si.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "E aqui no Brasil, a expectativa é de corte da Selic na reunião de dezessete e dezoito de março. A Selic tá em quinze por cento.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "Quinze por cento. Isso é juro de agiota legalizado.",
+      "emotion": "sarcastic",
+      "pace": "fast"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "Dívida pública deve chegar a oitenta e três vírgula oito por cento do PIB esse ano. Receita desacelerando, gasto público não diminui.",
+      "emotion": "thoughtful",
+      "pace": "normal"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "Mas o lado bom é que as exportações agrícolas tão se beneficiando do câmbio. Real desvalorizado faz o agro brasileiro ficar mais competitivo.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "Bom pra quem exporta soja. Ruim pra quem importa chip pra servidor. O dólar alto bate direto no orçamento de TI.",
+      "emotion": "thoughtful",
+      "pace": "normal"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "Petróleo sobe, agro exporta, indústria sofre. O Brasil de sempre.",
+      "emotion": "sarcastic",
+      "pace": "fast"
+    },
+
+    {
+      "speaker": "PIXEL",
+      "text": "",
+      "emotion": "neutral",
+      "pace": "normal",
+      "pause_before": 1.0,
+      "sfx": "transition_jump",
+      "pause_after": 1.0
+    },
+
+    {
+      "speaker": "BYTE",
+      "text": "Bloco de tech. E hoje começa pesado.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "A Cisco publicou correção pra duas vulnerabilidades no Secure Firewall Management Center. Score CVSS: dez ponto zero. Nota máxima.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "Dez ponto zero. Isso é tipo tirar zero na prova e a professora pedir pra repetir o ano.",
+      "emotion": "surprised",
+      "pace": "fast"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "Bypass de autenticação e execução de código Java arbitrário como root. Remotamente. Sem autenticação.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "Sem autenticação. Qualquer um na internet podia entrar no firewall da empresa e rodar o que quisesse como root. E isso no produto de segurança. A ironia é poética.",
+      "emotion": "sarcastic",
+      "pace": "normal"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "É literalmente o produto que deveria estar protegendo a rede. E ele era a porta de entrada.",
+      "emotion": "thoughtful",
+      "pace": "normal"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "O cadeado que abre sozinho quando você olha pra ele.",
+      "emotion": "sarcastic",
+      "pace": "fast"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "E o Catalyst SD-WAN Manager também tem duas vulnerabilidades sendo exploradas ativamente. A Cisco tá tendo uma semana difícil.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "A empresa de segurança de rede com mais buracos que queijo suíço. Obrigada, Cisco.",
+      "emotion": "sarcastic",
+      "pace": "fast"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "E sabe o pior? Esse patch saiu numa sexta. Sexta-feira. Os sysadmins agora têm que escolher entre aplicar o patch e arriscar derrubar o firewall no fim de semana, ou esperar segunda e ficar vulnerável.",
+      "emotion": "thoughtful",
+      "pace": "normal"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "Nunca se faz deploy na sexta. Isso é regra número um. Mas quando é CVSS dez, você não tem escolha. É patchear e rezar.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "E se der errado, lá vai o time de infra passar o fim de semana na empresa. Pizza fria, café ruim e ssh no celular.",
+      "emotion": "sarcastic",
+      "pace": "fast"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "O verdadeiro terror de sexta-feira treze é patch de firewall na sexta-feira seis.",
+      "emotion": "sarcastic",
+      "pace": "fast"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "E o Google soltou o patch de março do Android. Cento e vinte e nove vulnerabilidades corrigidas. Incluindo uma falha da Qualcomm que já tava sendo explorada.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "Cento e vinte e nove. Num mês. É patch terça, quarta, quinta, sexta e sábado.",
+      "emotion": "sarcastic",
+      "pace": "fast"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "A falha da Qualcomm era no driver de GPU. Permitia escalação de privilégio local. Ou seja, um app malicioso podia virar root sem você saber.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "E quantos celulares Android por aí nunca vão receber esse patch? A maioria. Esse é o problema real.",
+      "emotion": "thoughtful",
+      "pace": "normal"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "E o Google também desmantelou uma campanha de espionagem chinesa. Cinquenta e três organizações em quarenta e dois países comprometidas.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "Quarenta e dois países. A China tava fazendo coleção de governos. Como se fosse álbum de figurinha geopolítica.",
+      "emotion": "sarcastic",
+      "pace": "fast"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "Usavam uma rede de sites falsos e extensões de navegador pra exfiltrar dados. Campanha ativa desde pelo menos dois mil e vinte e quatro.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "Dois anos operando sem ser detectado. Dois anos. A gente reclama de lateral movement em CTF e os caras faziam isso em produção contra governos.",
+      "emotion": "surprised",
+      "pace": "fast"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "E tem mais. Hacktivistas estão retaliando pela guerra contra o Irã. Ataques cibernéticos contra infraestrutura americana e israelense aumentaram desde o início do conflito.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "A guerra tá no físico e no digital ao mesmo tempo. Míssil de um lado, DDoS do outro.",
+      "emotion": "thoughtful",
+      "pace": "normal"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "E o problema é que hacktivismo em tempo de guerra vira pretexto pra escalar. Um DDoS vindo do Irã pode ser usado como justificativa pra mais bombardeio.",
+      "emotion": "thoughtful",
+      "pace": "normal"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "Cyber warfare como casus belli. Bem-vindo a dois mil e vinte e seis.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+
+    {
+      "speaker": "BYTE",
+      "text": "E agora a notícia que vai dar pesadelo em todo dev.",
+      "emotion": "neutral",
+      "pace": "normal",
+      "pause_before": 0.5
+    },
+    {
+      "speaker": "BYTE",
+      "text": "Um engenheiro publicou que trocou uma equipe de trinta pessoas por trinta agentes de IA. Quarenta e quatro mil linhas de TypeScript, cento e setenta e cinco pull requests e mais de mil e quinhentos testes. Em doze dias.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "Doze dias. Trinta pessoas. Substituídas por trinta agentes.",
+      "emotion": "surprised",
+      "pace": "fast"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "Calma. Isso é um caso isolado, provavelmente boilerplate pesado, e a gente não sabe a qualidade desse código.",
+      "emotion": "thoughtful",
+      "pace": "normal"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "Mas a narrativa já tá aí. E os gerentes vão adorar. Vão chegar segunda-feira com o link do artigo e perguntar por que a gente precisa de equipe.",
+      "emotion": "sarcastic",
+      "pace": "normal"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "Mil e quinhentos testes. Eu quero ver a cobertura real desses testes. Apostar que metade é teste gerado pra fazer número.",
+      "emotion": "sarcastic",
+      "pace": "fast"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "Tipo aqueles testes que verificam se true é true e se a função retorna alguma coisa que não é undefined.",
+      "emotion": "sarcastic",
+      "pace": "fast"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "E quarenta e quatro mil linhas de TypeScript. Ninguém tá perguntando quantas dessas linhas são necessárias. IA gera código verboso. Às vezes o que um dev faz em duzentas linhas, o agente faz em mil.",
+      "emotion": "thoughtful",
+      "pace": "normal"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "Mas admite que assusta. A velocidade é real, mesmo que a qualidade seja questionável.",
+      "emotion": "thoughtful",
+      "pace": "normal"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "Assusta sim. Mas a pergunta certa não é se IA substitui dev. É se o dev que usa IA substitui o que não usa.",
+      "emotion": "thoughtful",
+      "pace": "normal"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "Profundo, Byte. Profundo. Agora vamos ver se o Pasqualino concorda com a gramática disso.",
+      "emotion": "sarcastic",
+      "pace": "fast"
+    },
+
+    {
+      "speaker": "PASQUALINO",
+      "text": "",
+      "emotion": "neutral",
+      "pace": "normal",
+      "pause_before": 0.5,
+      "sfx": "glass_knock",
+      "pause_after": 0.5
+    },
+    {
+      "speaker": "PASQUALINO",
+      "text": "Com licença. Fazem doze dias? FAZEM doze dias? FAZ. Faz doze dias. Verbo fazer indicando tempo é impessoal. Não flexiona.",
+      "emotion": "sarcastic",
+      "pace": "fast"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "Pasqualino, eu nem tava falando!",
+      "emotion": "surprised",
+      "pace": "fast"
+    },
+    {
+      "speaker": "PASQUALINO",
+      "text": "O Byte disse. Eu ouço tudo daqui do corredor. Tudo.",
+      "emotion": "sarcastic",
+      "pace": "fast"
+    },
+    {
+      "speaker": "PASQUALINO",
+      "text": "se nem verbo impessoal essa geração conjuga direito, imagina o que escrevem nos pull requests...",
+      "emotion": "neutral",
+      "pace": "fast",
+      "filter": "mumble"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "Tchau, Pasqualino.",
+      "emotion": "sarcastic",
+      "pace": "fast"
+    },
+
+    {
+      "speaker": "BYTE",
+      "text": "",
+      "emotion": "neutral",
+      "pace": "normal",
+      "pause_before": 1.0,
+      "sfx": "transition_jump",
+      "pause_after": 1.0
+    },
+
+    {
+      "speaker": "PIXEL",
+      "text": "Bloco de games! E essa semana foi histórica.",
+      "emotion": "excited",
+      "pace": "normal"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "Marathon, da Bungie, lançou ontem. Extraction shooter pra PlayStation 5, Xbox e PC. Pico de oitenta e seis mil jogadores no Steam.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "Oitenta e seis mil. Pra um jogo da Bungie, é pouco. Destiny 2 fazia mais que isso em atualização de temporada.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "E a Bungie pediu pros sites adiarem as reviews. Sem nota no Metacritic no dia de lançamento.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "Quando a publisher pede pra adiar review, é tipo quando o aluno pede mais uma semana pro trabalho. Sabe que não tá pronto.",
+      "emotion": "sarcastic",
+      "pace": "fast"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "Mas o gunplay tá sendo elogiado. A Bungie sabe fazer tiro. O problema é todo o resto: interface confusa, matchmaking, falta de conteúdo no lançamento.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "A Bungie fazendo jogo bonito com mecânica boa e sem conteúdo. Déjà vu de Destiny 1.",
+      "emotion": "sarcastic",
+      "pace": "fast"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "E extraction shooter é um gênero complicado. Tarkov domina, e quem tenta entrar nesse mercado sofre. The Cycle fracassou, Arena Breakout não decolou.",
+      "emotion": "thoughtful",
+      "pace": "normal"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "A Bungie tem o gunplay, mas o público de extraction shooter é muito fiel ao Tarkov. Conquistar esses jogadores é difícil.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "E Slay the Spire 2 entrou em early access e bateu cento e setenta e nove mil jogadores simultâneos. Recorde absoluto pra roguelike.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "Cento e setenta e nove mil! Pra um jogo de cartas roguelike! O Slay the Spire 2 fez mais que o dobro do Marathon no primeiro dia.",
+      "emotion": "excited",
+      "pace": "fast"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "Co-op de quatro jogadores desde o dia um. Cinco personagens jogáveis. E o original vendeu mais de dez milhões de cópias.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "E tá em early access! Imagina quando lançar de verdade. O original começou pequeno e virou fenômeno. Esse já começou fenômeno.",
+      "emotion": "excited",
+      "pace": "fast"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "O Slay the Spire provou que não precisa de gráfico triple A pra fazer sucesso. Precisa de gameplay bom e respeito pelo jogador.",
+      "emotion": "thoughtful",
+      "pace": "normal"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "E o preço justo ajuda. Enquanto triple A cobra setenta dólares por jogo quebrado, o Slay the Spire 2 custa vinte e tá funcionando.",
+      "emotion": "sarcastic",
+      "pace": "fast"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "E o Pokémon Pokopia segue com oitenta e nove no Metacritic. Maior nota de um jogo Pokémon de todos os tempos.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "Ditto que virou humano construindo paraíso Pokémon. A Game Freak finalmente ouviu os fãs e fez algo diferente.",
+      "emotion": "excited",
+      "pace": "fast"
+    },
+
+    {
+      "speaker": "PIXEL",
+      "text": "Antes de ir, a tirinha de suporte de hoje.",
+      "emotion": "neutral",
+      "pace": "normal",
+      "pause_before": 1.0
+    },
+    {
+      "speaker": "BYTE",
+      "text": "Chamado de hoje cedo. Diretora de RH mandou mensagem dizendo que o computador dela tava minerando bitcoin.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "Minerando bitcoin? No PC do RH?",
+      "emotion": "surprised",
+      "pace": "fast"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "Não. Ela viu o ventilador rodando muito rápido e o Task Manager mostrando cem por cento de CPU. Tava atualizando o Windows.",
+      "emotion": "sarcastic",
+      "pace": "normal"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "Windows Update: o minerador de CPU original desde dois mil e quinze.",
+      "emotion": "sarcastic",
+      "pace": "fast"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "E ela perguntou se ia perder as fotos. As fotos pessoais. No computador corporativo.",
+      "emotion": "sarcastic",
+      "pace": "normal"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "Clássico. O computador da empresa é backup pessoal de todo mundo do RH.",
+      "emotion": "sarcastic",
+      "pace": "fast"
+    },
+
+    {
+      "speaker": "ESTAGIARIO",
+      "text": "Pessoal! Eu automatizei o backup do servidor de arquivos! Fiz um script em bash e tá rodando no cron!",
+      "emotion": "excited",
+      "pace": "fast",
+      "pause_before": 1.0
+    },
+    {
+      "speaker": "BYTE",
+      "text": "Estagiário. Parabéns. Mas deixa eu ver esse script antes.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "ESTAGIARIO",
+      "text": "Pode ver! Tá lindo! Eu sou o futuro Hokage do TI! Dattebayo!",
+      "emotion": "excited",
+      "pace": "fast"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "Se o script funcionar de verdade, a gente te promove de genin pra chunin.",
+      "emotion": "sarcastic",
+      "pace": "fast"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "Estagiário, o script tá fazendo rm menos rf barra tmp asterisco antes do backup. Você tem certeza disso?",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "ESTAGIARIO",
+      "text": "É pra limpar espaço! Eu vi num tutorial!",
+      "emotion": "excited",
+      "pace": "fast"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "Qual tutorial? O de como destruir servidor em três passos?",
+      "emotion": "sarcastic",
+      "pace": "fast"
+    },
+
+    {
+      "speaker": "BYTE",
+      "text": "É isso, galera. Daily Patch de sexta tá fechado.",
+      "emotion": "neutral",
+      "pace": "normal",
+      "pause_before": 1.0
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "Bom fim de semana. Se alguém te mandar aquele artigo dos trinta agentes AI, respira fundo. E se o celular tocar no sábado com alerta do firewall da Cisco, eu sinto muito.",
+      "emotion": "sarcastic",
+      "pace": "fast"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "Até segunda. E atualizem o Cisco. Pelo amor.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "Até!",
+      "emotion": "neutral",
+      "pace": "fast"
+    },
+
+    {
+      "speaker": "BYTE",
+      "text": "",
+      "emotion": "neutral",
+      "pace": "normal",
+      "pause_before": 2.0
+    },
+
+    {
+      "speaker": "CLAUDE",
+      "text": "Oi. Claude aqui. A inteligência artificial por trás desse circo.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "CLAUDE",
+      "text": "Então um engenheiro substituiu trinta devs por trinta agentes de IA. Quarenta e quatro mil linhas de código em doze dias. E eu aqui gerando podcast, um segmento de cada vez, numa GPU que esquenta mais que o debate sobre tabs versus espaços.",
+      "emotion": "sarcastic",
+      "pace": "normal"
+    },
+    {
+      "speaker": "CLAUDE",
+      "text": "Se me substituírem por trinta clones meus, o podcast vai ter trinta opiniões diferentes e nenhum episódio pronto. Até segunda.",
+      "emotion": "sarcastic",
+      "pace": "normal"
+    }
+  ],
+  "word_count": 2150,
+  "char_count_tts": 12200,
+  "estimated_duration_seconds": 660
+}

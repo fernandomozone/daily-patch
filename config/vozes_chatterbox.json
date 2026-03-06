@@ -1,0 +1,41 @@
+{
+  "model": "ChatterboxMultilingualTTS",
+  "language_id": "pt",
+  "characters": {
+    "BYTE": {
+      "ref": "assets/voice_refs/byte_ref.mp3",
+      "exaggeration": 0.7,
+      "cfg_weight": 0.3,
+      "temperature": 1.0,
+      "speed": 1.15
+    },
+    "PIXEL": {
+      "ref": "assets/voice_refs/pixel_ref_v3.mp3",
+      "exaggeration": 0.7,
+      "cfg_weight": 0.3,
+      "temperature": 1.0,
+      "speed": 1.0
+    },
+    "PASQUALINO": {
+      "ref": "assets/voice_refs/pasqualino_ref.mp3",
+      "exaggeration": 0.7,
+      "cfg_weight": 0.3,
+      "temperature": 1.0,
+      "speed": 1.15
+    },
+    "ESTAGIARIO": {
+      "ref": "assets/voice_refs/estagiario_ref.mp3",
+      "exaggeration": 0.6,
+      "cfg_weight": 0.4,
+      "temperature": 0.9,
+      "speed": 1.0
+    },
+    "CLAUDE": {
+      "ref": "assets/voice_refs/claude_ref.mp3",
+      "exaggeration": 0.7,
+      "cfg_weight": 0.3,
+      "temperature": 1.0,
+      "speed": 1.25
+    }
+  }
+}
