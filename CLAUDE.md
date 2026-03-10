@@ -53,24 +53,41 @@ Este projeto era gerido pelo Claude Cowork (desktop). A partir do ep5 (2026-03-0
 
 O Chatterbox Multilingual com `language_id="pt"` lê texto literalmente.
 
-### Regra principal: palavras de outro idioma devem ser escritas nesse idioma
+### Regra principal: maioria das palavras EN o Chatterbox já pronuncia bem
 
-- EN -> EN: "Daily Patch", "Game Pass", "MacBook", "data center", "backup"
+- EN -> EN: "Daily Patch", "Game Pass", "deploy", "remake", "Steam", "housing"
 - JP -> JP: "Dattebayo", "Hokage"
 - PT -> PT: tudo o resto
 
-O modelo consegue pronunciar palavras inglesas razoavelmente bem quando escritas no original. NAO fonetizar.
+**TESTADO**: deploy, remake, housing, Steam, Anthropic, containers, Docker, Firefox, PlayStation, Sony, Bloomberg — todos soam bem sem fonética.
 
-### Excepcoes (siglas soletradas em PT-BR)
+### Dicionário fonético (`config/pronuncia.json`)
 
-Siglas que em PT-BR se soletram diferente devem ser escritas por extenso:
-- AWS, PC, USB, SLA, MWC, OSI -> soletrar em PT-BR se necessario para clareza
+Aplicado automaticamente pelo script antes do TTS. Duas categorias:
+
+**Siglas** (soletradas em PT-BR):
+- IA→I.A., PC→P.C., GDC→G.D.C., CPU→C.P.U., SSH→S.S.H., DJ→D.J., etc.
+
+**Palavras que precisam fonética** (testado e confirmado):
+- feature→fítcher, htop→êitchtóp, Bungie→Bânji
+- Testes em andamento — ver resultados completos em auto-memory
+
+### Palavras que NÃO precisam fonética
+
+deploy, remake, housing, Steam, Anthropic, containers, Docker, Firefox, PlayStation, Sony, Bloomberg, God of War, Spider-Man
+
+### Ferramentas de fonética instaladas
+
+- `phonemizer` + `espeak-ng` — converte texto→IPA (100+ idiomas)
+- `g2p-en` — grapheme-to-phoneme para inglês
+- Pipeline: EN word → IPA (phonemizer) → PT-BR hint (conversão manual)
+- Conversão automática IPA→PT-BR precisa refinamento (preferir fonéticas simples)
 
 ### Dicas de pronuncia
 
-- Acentos afetam pronuncia: "manha" soa errado, "manha" soa correto
+- Acentos afetam pronuncia: "manha" soa errado, "manhã" soa correto
 - Numeros sempre por extenso: "tres" e nao "3"
-- Truque para enfase: usar acento falso (ex: "nessa" -> "nessa" para forcar enfase)
+- Truque para enfase: usar acento falso (ex: "nessa" -> "néssa" para forcar enfase)
 - Pontuacao afeta ritmo: ponto final = pausa, virgula = pausa curta, reticencias = trailing
 
 ---
@@ -106,6 +123,7 @@ daily-patch/
   config/
     .env                       # API keys (ElevenLabs — histórico)
     prompt-guiao.md            # Master prompt para geração de roteiro
+    pronuncia.json             # Dicionário fonético TTS (siglas + palavras)
     vozes_chatterbox.json      # Perfis de voz Chatterbox (USAR ESTE)
     vozes.json                 # Perfis ElevenLabs (histórico)
   scripts/
@@ -142,8 +160,8 @@ Manter atualizado em `config/prompt-guiao.md`. Sortear 1 por episódio, NUNCA re
 ✅ USADO ep3: "menas" → "menos"
 ✅ USADO ep4: "pra mim mostrar" → "pra eu mostrar"
 ✅ USADO ep5: "houveram" → "houve"
-☐ "a gente vamos" → "a gente vai"
-☐ "fazem dez anos" → "faz dez anos"
+✅ USADO ep6: "fazem dez anos" → "faz dez anos"
+✅ USADO ep7: "a gente vamos" → "a gente vai"
 ☐ "assistir o filme" → "assistir ao filme"
 ☐ "entre eu e você" → "entre mim e você"
 ☐ "a nível de" → "em nível de"
@@ -167,6 +185,8 @@ Manter atualizado em `config/prompt-guiao.md`. Sortear 1 por episódio, NUNCA re
 | 3 | 2026-03-03 | seg | ElevenLabs v3 | ~10min | Migração para text-to-dialogue |
 | 4 | 2026-03-04 | qua | GenAIPro | 7:48 | Reseller ElevenLabs, segment-by-segment |
 | 5 | 2026-03-05 | qui | Chatterbox | 10:48 | Primeiro ep local, EN->EN |
+| 6 | 2026-03-06 | sex | Chatterbox | 11:48 | Sexta-feira TI, duração corrigida |
+| 7 | 2026-03-09 | seg | Chatterbox | 10:29 | Dicionário fonético, compact MP3 |
 
 ---
 
@@ -180,6 +200,9 @@ Manter atualizado em `config/prompt-guiao.md`. Sortear 1 por episódio, NUNCA re
 - **Crossfade**: pydub crossfade 50ms + fade-in/out 30ms entre segmentos (ep5)
 - **Trim silence**: pydub -55dB remove silencio puro no inicio/fim de segmentos TTS (ep5)
 - **Speed via ffmpeg**: atempo preserva pitch, não distorce
+- **Compact MP3**: versão <18MB gerada automaticamente como episode_compact.mp3
+- **Pronúncia**: dicionário fonético em config/pronuncia.json (siglas + palavras problemáticas)
+- **Fonética seletiva**: só fonetizar palavras que realmente soam mal (testado: maioria EN→EN funciona)
 
 ---
 
