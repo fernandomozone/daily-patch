@@ -28,11 +28,50 @@ PRONUNCIA_CONFIG = PROJECT_DIR / "config" / "pronuncia.json"
 SFX_DIR = PROJECT_DIR / "assets" / "sfx"
 VOICE_REFS_DIR = PROJECT_DIR / "assets" / "voice_refs"
 
-PACE_PAUSES = {
-    "normal": 0.2,
-    "fast": 0.05,
-    "interrupt": 0.0,
-}
+def compute_context_pause(seg_current, seg_next):
+    """Calcula pausa entre segmentos baseada no contexto conversacional.
+
+    Retorna duração em segundos. Analisa: tipo de conteúdo, troca de speaker,
+    pontuação (pergunta vs afirmação), e presença de SFX.
+    """
+    text_curr = seg_current.get("text", "").strip()
+    sfx_curr = seg_current.get("sfx")
+    sfx_next = seg_next.get("sfx")
+    text_next = seg_next.get("text", "").strip()
+    speaker_curr = seg_current.get("speaker", "")
+    speaker_next = seg_next.get("speaker", "")
+    pace_curr = seg_current.get("pace", "normal")
+
+    # Sem conteúdo → sem pausa
+    if not text_curr and not sfx_curr:
+        return 0.0
+
+    # pace=interrupt → sem pausa (fala por cima)
+    if pace_curr == "interrupt":
+        return 0.0
+
+    # Após SFX sem texto → pausa mínima
+    if sfx_curr and not text_curr:
+        return 0.05
+
+    # Antes de SFX sem texto → pausa mínima
+    if sfx_next and not text_next:
+        return 0.05
+
+    # pace=fast → pausa curta (resposta rápida, urgência)
+    if pace_curr == "fast":
+        return 0.15
+
+    # Mesmo speaker continuando → pausa curta
+    if speaker_curr == speaker_next:
+        return 0.25
+
+    # Pergunta → resposta (troca de speaker)
+    if text_curr.rstrip().endswith("?"):
+        return 0.35
+
+    # Troca de speaker normal
+    return 0.5
 
 SAMPLE_RATE = 44100  # para silêncio e output final
 OUTPUT_FORMAT = "mp3"  # flac, mp3, wav
@@ -215,11 +254,9 @@ def main():
         if text and pronuncia:
             text = apply_pronuncia(text, pronuncia)
         sfx = seg.get("sfx")
-        pace = seg.get("pace", "normal")
         pause_before = seg.get("pause_before", 0)
         pause_after = seg.get("pause_after", 0)
         filt = seg.get("filter")
-        pace_pause = PACE_PAUSES.get(pace, 0.4)
 
         tag = f"[{i:03d}/{len(segments)-1:03d}]"
 
@@ -319,36 +356,46 @@ def main():
                 generate_silence(pause_after, pause_path)
             concat_files.append(pause_path)
 
-        # ── e) Pausa entre segmentos (pace) ──
-        # Só adiciona se houve TTS ou SFX neste segmento (não duplicar com pausas explícitas)
-        if (text or sfx) and pace_pause > 0 and i < len(segments) - 1:
-            pace_path = str(segments_dir / f"seg_{i:03d}_pace.wav")
-            if not is_cached(pace_path):
-                generate_silence(pace_pause, pace_path)
-            concat_files.append(pace_path)
+        # ── e) Pausa contextual entre segmentos ──
+        if (text or sfx) and i < len(segments) - 1:
+            ctx_pause = compute_context_pause(seg, segments[i + 1])
+            if ctx_pause > 0:
+                pace_path = str(segments_dir / f"seg_{i:03d}_pace.wav")
+                # Regerar se duração mudou (pausas contextuais variam)
+                if is_cached(pace_path):
+                    from pydub import AudioSegment as _AS
+                    existing = _AS.from_wav(pace_path)
+                    if abs(existing.duration_seconds - ctx_pause) > 0.05:
+                        generate_silence(ctx_pause, pace_path)
+                else:
+                    generate_silence(ctx_pause, pace_path)
+                concat_files.append(pace_path)
 
     # ═══════════════════════════════════════════════════════════════
     # CONCATENAR (com trim silence + crossfade + room tone)
     # ═══════════════════════════════════════════════════════════════
     from pydub import AudioSegment
     from pydub.silence import detect_leading_silence
+    from pydub.effects import normalize
 
     print()
     print("═" * 60)
     print(f"Concatenando {len(concat_files)} ficheiros (com crossfade)...")
     print("═" * 60)
 
-    CROSSFADE_MS = 50   # 50ms crossfade entre segmentos
-    FADE_MS = 30        # 30ms fade-in/fade-out em cada segmento TTS
-    SILENCE_THRESH = -55  # dBFS — só corta silêncio puro
+    CROSSFADE_MS = 50     # 50ms crossfade entre segmentos
+    FADE_IN_MS = 80       # fade-in para mascarar artefactos Chatterbox no início
+    FADE_OUT_MS = 100     # fade-out para mascarar artefactos Chatterbox no fim
+    SILENCE_THRESH = -40  # dBFS — corta apenas silêncio puro no início/fim
 
     def trim_silence(seg, threshold=SILENCE_THRESH):
-        """Remove silêncio puro no início e fim do segmento."""
+        """Remove silêncio puro no início/fim. Conservador — não corta fala."""
         start_trim = detect_leading_silence(seg, silence_threshold=threshold, chunk_size=10)
         end_trim = detect_leading_silence(seg.reverse(), silence_threshold=threshold, chunk_size=10)
-        if start_trim + end_trim >= len(seg):
+        duration = len(seg)
+        if start_trim + end_trim > duration * 0.4:
             return seg
-        return seg[start_trim:len(seg) - end_trim]
+        return seg[start_trim:duration - end_trim]
 
     result_audio = AudioSegment.empty()
     for idx, path in enumerate(concat_files):
@@ -357,10 +404,13 @@ def main():
         is_pause = "_pause_" in basename or "_pace." in basename
         is_tts = not is_pause and "_sfx" not in basename
 
-        # Trim + fade só em segmentos TTS
-        if is_tts and len(seg) > FADE_MS * 2:
+        # Normalize + trim + fade em segmentos TTS
+        if is_tts and len(seg) > 200:
+            seg = normalize(seg, headroom=1.0)
             seg = trim_silence(seg)
-            seg = seg.fade_in(FADE_MS).fade_out(FADE_MS)
+            fi = min(FADE_IN_MS, len(seg) // 4)
+            fo = min(FADE_OUT_MS, len(seg) // 4)
+            seg = seg.fade_in(fi).fade_out(fo)
 
         if len(result_audio) == 0 or len(seg) == 0:
             result_audio += seg
@@ -384,11 +434,13 @@ def main():
 
     # Normalizar e converter para MP3 final
     output_file = str(episode_dir / "episode.mp3")
-    print(f"Aplicando loudnorm e convertendo para MP3 {OUTPUT_BITRATE} estéreo...")
+    print(f"Aplicando compressor + loudnorm e convertendo para MP3 {OUTPUT_BITRATE} estéreo...")
 
+    # Compressor suave (3:1) uniformiza volume entre segmentos,
+    # loudnorm ajusta para -16 LUFS (padrão podcast)
     ffmpeg_cmd = [
         "ffmpeg", "-y", "-i", intermediate_wav,
-        "-af", "loudnorm=I=-16:TP=-1.5:LRA=11",
+        "-af", "acompressor=threshold=-20dB:ratio=3:attack=10:release=100:makeup=2dB,loudnorm=I=-16:TP=-1.5:LRA=11",
         "-ar", str(SAMPLE_RATE),
         "-ac", str(OUTPUT_CHANNELS),
         "-b:a", OUTPUT_BITRATE,

@@ -41,7 +41,18 @@
     "CSS": "C.S.S.",
     "PR": "P.R.",
     "CI": "C.I.",
-    "CD": "C.D."
+    "CD": "C.D.",
+    "Kubernetes": "Kuber nétis",
+    "kubernetes": "kuber nétis",
+    "ransomware": "rénsomuér",
+    "Ransomware": "Rénsomuér",
+    "Claude": "Clôde",
+    "claude": "clôde",
+    "hackear": "raquear",
+    "hackeando": "rakeando",
+    "hackeou": "rakeou",
+    "DJ": "Didgêi",
+    "Slay the Spire": "Slei the Spáire"
   },
   "_notas": [
     "Siglas que se leem como palavras NÃO entram aqui: OTAN, NASA, FIFA, Copom, Selic",
