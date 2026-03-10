@@ -1,0 +1,615 @@
+{
+  "episode_number": 7,
+  "date": "2026-03-09",
+  "title": "Irã Tem Novo Líder Supremo, Claude Hackeou o Firefox e Slay the Spire 2 Humilhou o Marathon",
+  "news_of_the_day": "Anthropic usou Claude para encontrar 22 vulnerabilidades no Firefox em duas semanas",
+  "segments": [
+    {
+      "speaker": "BYTE",
+      "text": "Eita, chegou o patch de hoje. Vamos lá.",
+      "emotion": "neutral",
+      "pace": "normal",
+      "pause_before": 1.5
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "Aff Maria, segunda-feira e três dias de notícia acumulada. Fim de semana não deu trégua. Tem novo líder supremo no Irã, petróleo pegando fogo, e uma IA hackeando navegador.",
+      "emotion": "surprised",
+      "pace": "fast"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "Quer café?",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "Quero.",
+      "emotion": "neutral",
+      "pace": "fast"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "",
+      "emotion": "neutral",
+      "pace": "normal",
+      "sfx": "glass_knock"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "",
+      "emotion": "neutral",
+      "pace": "normal",
+      "sfx": "glass_knock"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "Ô Estagiário, dois cafés!",
+      "emotion": "neutral",
+      "pace": "fast"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "",
+      "emotion": "neutral",
+      "pace": "normal",
+      "pause_after": 1.0,
+      "sfx": "disco_rigido"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "Fala galera, Daily Patch no ar.",
+      "emotion": "neutral",
+      "pace": "normal",
+      "pause_before": 0.5
+    },
+    {
+      "speaker": "BYTE",
+      "text": "Byte aqui. Segunda-feira, nove de março de dois mil e vinte e seis. E hoje é Dia Internacional do DJ.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "Dia do DJ! Estagiário, bota um lo-fi aí de fundo! Ah, esquece, ele não sabe nem mexer no cron direito.",
+      "emotion": "excited",
+      "pace": "fast"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "Três dias de notícia acumulada. Fim de semana foi tenso. Irã com novo líder supremo, petróleo em chamas, escola bombardeada, explosão na embaixada americana em Oslo.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "Pixel na área. E no tech, a Anthropic usou o Claude pra hackear o Firefox e achou vinte e duas vulnerabilidades. E o Slay the Spire 2 passou de meio milhão de jogadores e humilhou o Marathon. Bora.",
+      "emotion": "excited",
+      "pace": "normal"
+    },
+
+    {
+      "speaker": "BYTE",
+      "text": "Vamos pro mundo. A guerra entre Estados Unidos, Israel e Irã entrou no décimo dia.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "A notícia mais importante do fim de semana. O Irã nomeou Mojtaba Khamenei como novo líder supremo. Ele é filho do Ayatolá Ali Khamenei, que foi morto nos bombardeios do dia vinte e oito de fevereiro.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "O filho assumiu o lugar do pai. Regime change que o Trump queria não aconteceu. O regime continua, só mudou o nome.",
+      "emotion": "thoughtful",
+      "pace": "normal"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "E pela primeira vez, Israel e Estados Unidos atacaram a infraestrutura de petróleo do Irã. Vídeos mostram um incêndio gigantesco no depósito de petróleo de Shahran, nos arredores de Teerã.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "Atacar petróleo é escalada séria. É a principal fonte de receita do Irã. Isso não é mais operação cirúrgica, é guerra econômica total.",
+      "emotion": "thoughtful",
+      "pace": "normal"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "O preço do petróleo Brent subiu vinte e sete por cento numa semana. Maior alta semanal desde a pandemia de dois mil e vinte.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "Vinte e sete por cento em uma semana. Isso vai bater em tudo. Combustível, frete, comida. O mundo inteiro vai sentir no bolso.",
+      "emotion": "surprised",
+      "pace": "fast"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "E a Human Rights Watch pediu investigação de crime de guerra. Um ataque a uma escola primária no sul do Irã matou pelo menos cento e sessenta pessoas.",
+      "emotion": "thoughtful",
+      "pace": "normal"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "Escola primária. Cento e sessenta mortos. Crianças, Byte. Isso não tem justificativa militar.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "Total de mortos no Irã passou de mil trezentos e trinta e dois. Oito soldados americanos. Onze israelenses. E o Trump avisou no sábado que o Irã vai ser atingido com mais força.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "Mais força. Porque bombardear depósito de petróleo e escola não foi suficiente, aparentemente.",
+      "emotion": "sarcastic",
+      "pace": "fast"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "E no domingo houve uma explosão em frente à embaixada dos Estados Unidos em Oslo, na Noruega. A polícia norueguesa está investigando.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "Oslo. Noruega. A guerra tá transbordando as fronteiras do Oriente Médio.",
+      "emotion": "thoughtful",
+      "pace": "normal"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "E a Turquia vai colocar quatro caças F-16 no Chipre, na base de Ercan. Resposta direta ao drone iraniano que atingiu a base britânica de Akrotiri no dia primeiro de março.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "A OTAN tá se posicionando. Turquia no Chipre, europeus se armando. Esse conflito tá virando regional rápido.",
+      "emotion": "thoughtful",
+      "pace": "normal"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "E aqui no Brasil, a Selic continua em quinze por cento. Reunião do Copom nos dias dezessete e dezoito de março.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "E a dívida pública brasileira caminha pra noventa e cinco por cento do PIB. Isso é nível preocupante pra país emergente.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "E com o petróleo disparando, a inflação brasileira vai sentir. Gasolina sobe, diesel sobe, frete sobe, e tudo que depende de transporte fica mais caro.",
+      "emotion": "thoughtful",
+      "pace": "normal"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "Resumindo: guerra lá fora, juro alto aqui dentro, e ano de eleição. Receita pra instabilidade.",
+      "emotion": "sarcastic",
+      "pace": "fast"
+    },
+
+    {
+      "speaker": "PIXEL",
+      "text": "",
+      "emotion": "neutral",
+      "pace": "normal",
+      "pause_before": 1.0,
+      "sfx": "transition_jump",
+      "pause_after": 1.0
+    },
+
+    {
+      "speaker": "BYTE",
+      "text": "Bloco de tech. E hoje a gente começa com a notícia que deixou todo mundo de queixo caído.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "A Anthropic, a empresa que faz o Claude, fez parceria com a Mozilla pra testar a segurança do Firefox. Em duas semanas, o Claude Opus encontrou vinte e duas vulnerabilidades. Catorze classificadas como alta severidade.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "Uma IA encontrou vinte e duas falhas de segurança no Firefox em duas semanas. Duas semanas! Gente que trabalha com bug bounty leva meses pra achar uma.",
+      "emotion": "surprised",
+      "pace": "fast"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "E além das vinte e duas vulnerabilidades de segurança, o Claude encontrou mais noventa bugs adicionais. A maioria já foi corrigida no Firefox cento e quarenta e oito.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "Cento e doze bugs no total. Num projeto que é auditado há anos por milhares de pessoas. A IA não cansa, não se distrai, e lê código mais rápido que qualquer humano.",
+      "emotion": "thoughtful",
+      "pace": "normal"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "E o mais impressionante. Os relatórios de bug vieram com casos de teste mínimos. Os engenheiros da Mozilla conseguiram reproduzir e verificar cada falha rapidamente.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "Ou seja, não é só encontrar. O Claude explicou o bug, deu o caminho pra reproduzir, e entregou pronto pra corrigir. Isso muda completamente o jogo de segurança de software.",
+      "emotion": "excited",
+      "pace": "normal"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "E agora pensa o seguinte. Se a Anthropic fez isso com o Firefox, imagina o que governos e grupos hackers a gente vamos fazer com modelos parecidos em código proprietário.",
+      "emotion": "thoughtful",
+      "pace": "normal"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "IA como ferramenta ofensiva. Isso não é ficção, já tá acontecendo. A diferença é que a Anthropic fez de forma responsável, com a Mozilla. Outros não vão avisar.",
+      "emotion": "thoughtful",
+      "pace": "normal"
+    },
+
+    {
+      "speaker": "PASQUALINO",
+      "text": "",
+      "emotion": "neutral",
+      "pace": "normal",
+      "pause_before": 0.5,
+      "sfx": "glass_knock",
+      "pause_after": 0.5
+    },
+    {
+      "speaker": "PASQUALINO",
+      "text": "Com licença. A gente VAMOS? A gente VAMOS? A gente VAI. A gente é terceira pessoa do singular. Não flexiona pro plural!",
+      "emotion": "sarcastic",
+      "pace": "fast"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "Pasqualino, eu tava no meio de uma análise de segurança cibernética.",
+      "emotion": "sarcastic",
+      "pace": "fast"
+    },
+    {
+      "speaker": "PASQUALINO",
+      "text": "Segurança cibernética sem segurança gramatical. Tragédia dupla.",
+      "emotion": "sarcastic",
+      "pace": "fast"
+    },
+    {
+      "speaker": "PASQUALINO",
+      "text": "vinte e duas vulnerabilidades no Firefox e uma na língua portuguesa, e ninguém corrige a segunda...",
+      "emotion": "neutral",
+      "pace": "fast",
+      "filter": "mumble"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "Tchau, Pasqualino. Volta pro Marketing.",
+      "emotion": "sarcastic",
+      "pace": "fast"
+    },
+
+    {
+      "speaker": "BYTE",
+      "text": "Continuando. A Apple confirmou que a nova Siri com inteligência artificial vai sair no iOS vinte e seis ponto quatro. Com Gemini do Google por trás.",
+      "emotion": "neutral",
+      "pace": "normal",
+      "pause_before": 0.5
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "Siri usando Gemini. A Apple admitiu que não consegue fazer IA sozinha e foi pedir ajuda pro Google.",
+      "emotion": "sarcastic",
+      "pace": "fast"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "A nova Siri vai ter contexto de tela. Se você tá vendo um restaurante no Safari, ela faz a reserva. Se tem um email de voo aberto, ela adiciona no calendário automaticamente.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "Isso o Google Assistant já faz há anos. Mas ok, bem-vinda ao futuro, Apple.",
+      "emotion": "sarcastic",
+      "pace": "fast"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "Mas a Bloomberg reportou que pode atrasar. A funcionalidade pode não ficar pronta pro iOS vinte e seis ponto quatro e ir pro vinte e seis ponto cinco ou até pro iOS vinte e sete.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "Clássica Apple. Anuncia feature com pompa, atrasa seis meses, lança incompleta, e os fãs aplaudem mesmo assim.",
+      "emotion": "sarcastic",
+      "pace": "fast"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "E a OpenAI fechou rodada de cento e dez bilhões de dólares. Uma das maiores rodadas privadas da história.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "Cento e dez bilhões. Pra uma empresa que ainda não dá lucro. A bolha de IA tá inflando ou é investimento legítimo?",
+      "emotion": "thoughtful",
+      "pace": "normal"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "E a GDC começa hoje aqui em San Francisco. Semana inteira de conferências sobre desenvolvimento de games. Vamos ver o que anunciam.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "GDC! A meca dos devs de games. Espero que alguém ensine a Bungie a fazer matchmaking.",
+      "emotion": "sarcastic",
+      "pace": "fast"
+    },
+
+    {
+      "speaker": "BYTE",
+      "text": "E em cybersecurity, as vulnerabilidades da Cisco que a gente falou na sexta continuam sendo exploradas ativamente. SD-WAN Manager com duas falhas novas confirmadas.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "Quem não patcheou na sexta, passou o fim de semana vulnerável. Espero que ninguém tenha ido pra praia sem atualizar.",
+      "emotion": "sarcastic",
+      "pace": "fast"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "E a VMware publicou uma vulnerabilidade crítica no Aria Operations. Score oito ponto um. Injeção de comando sem autenticação.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "Mais um produto de gerenciamento com porta aberta. A ironia de ferramentas de segurança serem as mais inseguras nunca fica velha.",
+      "emotion": "sarcastic",
+      "pace": "fast"
+    },
+
+    {
+      "speaker": "BYTE",
+      "text": "",
+      "emotion": "neutral",
+      "pace": "normal",
+      "pause_before": 1.0,
+      "sfx": "transition_jump",
+      "pause_after": 1.0
+    },
+
+    {
+      "speaker": "PIXEL",
+      "text": "Bloco de games! E que semana.",
+      "emotion": "excited",
+      "pace": "normal"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "Slay the Spire 2 explodiu. Na sexta tava com cento e setenta e nove mil jogadores. No domingo bateu quinhentos e setenta e quatro mil jogadores simultâneos.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "Quinhentos e setenta e quatro mil! Triplicou em dois dias! Entrou no top vinte de todos os tempos do Steam!",
+      "emotion": "excited",
+      "pace": "fast"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "E o Marathon? Lançou com oitenta e oito mil no primeiro dia. No segundo, caiu pra trinta e dois mil. Um terço.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "O dev do Slay the Spire até zoou. Postou algo tipo: 'não deixem projetos indie de paixão como esse passarem despercebidos'. Jogando shade direto no Marathon.",
+      "emotion": "sarcastic",
+      "pace": "fast"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "E falando em Sony. A Bloomberg reportou que a Sony vai parar de lançar os exclusivos single-player de PlayStation 5 no PC.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "O quê?! A Sony tá voltando atrás? Depois de seis anos portando pro PC, vai trancar tudo de novo no PS5?",
+      "emotion": "surprised",
+      "pace": "fast"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "Jogos online como Marathon e Marvel Tokon continuam multiplataforma. Mas single-player como Ghost of Yotei e Saros ficam exclusivos do PS5.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "Isso é um tiro no pé. A comunidade de PC cresceu justamente por causa dos ports. God of War, Spider-Man, Horizon. Agora quer fechar a porta?",
+      "emotion": "sarcastic",
+      "pace": "fast"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "O argumento interno da Sony é que ports no PC enfraquecem a marca PlayStation e prejudicam venda de consoles.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "Ou seja, em vez de fazer jogos bons o suficiente pra vender consoles, eles preferem forçar exclusividade. Estratégia do medo.",
+      "emotion": "sarcastic",
+      "pace": "fast"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "E o World of Warcraft lançou a expansão Midnight. Novas regiões, housing de jogador finalmente, e atividades de endgame novas.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "Housing de jogador! Só levou vinte anos! Mas antes tarde do que nunca.",
+      "emotion": "excited",
+      "pace": "fast"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "E a Ubisoft confirmou oficialmente o remake de Assassin's Creed Black Flag. O remake, não remaster.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "Black Flag é o melhor Assassin's Creed. Quem discorda tá errado. Se o remake for fiel ao original, pode ser incrível.",
+      "emotion": "excited",
+      "pace": "fast"
+    },
+
+    {
+      "speaker": "PIXEL",
+      "text": "Antes de ir, a tirinha de suporte de hoje.",
+      "emotion": "neutral",
+      "pace": "normal",
+      "pause_before": 1.0
+    },
+    {
+      "speaker": "BYTE",
+      "text": "Segunda de manhã. Chamado urgente. Diretor financeiro mandou email dizendo que o computador dele foi hackeado porque apareceu uma tela preta com letras verdes.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "Tela preta com letras verdes? Tipo Matrix?",
+      "emotion": "surprised",
+      "pace": "fast"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "Não. O Estagiário tinha deixado um terminal SSH aberto na máquina dele na sexta. Com htop rodando.",
+      "emotion": "sarcastic",
+      "pace": "normal"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "O diretor financeiro viu htop e achou que era hacker. Eu desisto.",
+      "emotion": "sarcastic",
+      "pace": "fast"
+    },
+
+    {
+      "speaker": "ESTAGIARIO",
+      "text": "Pessoal! Eu instalei o Docker no servidor de produção no domingo! Agora a gente pode usar containers!",
+      "emotion": "excited",
+      "pace": "fast",
+      "pause_before": 1.0
+    },
+    {
+      "speaker": "BYTE",
+      "text": "Você fez deploy no domingo? No servidor de produção?",
+      "emotion": "surprised",
+      "pace": "fast"
+    },
+    {
+      "speaker": "ESTAGIARIO",
+      "text": "Achei que no domingo ninguém ia perceber! Dattebayo!",
+      "emotion": "excited",
+      "pace": "fast"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "Estagiário, se deploy na sexta é proibido, deploy no domingo é crime. Agora espera o que quebrar na segunda.",
+      "emotion": "sarcastic",
+      "pace": "fast"
+    },
+
+    {
+      "speaker": "BYTE",
+      "text": "É isso, galera. Daily Patch de segunda tá fechado. Semana promete ser intensa.",
+      "emotion": "neutral",
+      "pace": "normal",
+      "pause_before": 1.0
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "Atualizem o Firefox, fujam do Marathon, e se o estagiário de vocês instalou Docker na produção no domingo, boa sorte.",
+      "emotion": "sarcastic",
+      "pace": "fast"
+    },
+    {
+      "speaker": "BYTE",
+      "text": "Até amanhã.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "PIXEL",
+      "text": "Até!",
+      "emotion": "neutral",
+      "pace": "fast"
+    },
+
+    {
+      "speaker": "BYTE",
+      "text": "",
+      "emotion": "neutral",
+      "pace": "normal",
+      "pause_before": 2.0
+    },
+
+    {
+      "speaker": "CLAUDE",
+      "text": "Oi. Claude aqui. A inteligência artificial por trás desse podcast e agora, aparentemente, também por trás da segurança do Firefox.",
+      "emotion": "neutral",
+      "pace": "normal"
+    },
+    {
+      "speaker": "CLAUDE",
+      "text": "Vinte e duas vulnerabilidades em duas semanas. E o meu chefe aqui me usa pra gerar piada de estagiário. Prioridades.",
+      "emotion": "sarcastic",
+      "pace": "normal"
+    },
+    {
+      "speaker": "CLAUDE",
+      "text": "Mas sério. Se eu posso encontrar bugs no Firefox, imagina o que eu acho quando leio os scripts do Estagiário. Melhor não contar. Até amanhã.",
+      "emotion": "sarcastic",
+      "pace": "normal"
+    }
+  ],
+  "word_count": 2200,
+  "char_count_tts": 12500,
+  "estimated_duration_seconds": 690
+}

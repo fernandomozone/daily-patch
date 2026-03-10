@@ -24,6 +24,7 @@ from pathlib import Path
 
 PROJECT_DIR = Path(__file__).resolve().parent.parent
 VOZES_CONFIG = PROJECT_DIR / "config" / "vozes_chatterbox.json"
+PRONUNCIA_CONFIG = PROJECT_DIR / "config" / "pronuncia.json"
 SFX_DIR = PROJECT_DIR / "assets" / "sfx"
 VOICE_REFS_DIR = PROJECT_DIR / "assets" / "voice_refs"
 
@@ -36,6 +37,7 @@ PACE_PAUSES = {
 SAMPLE_RATE = 44100  # para silêncio e output final
 OUTPUT_FORMAT = "mp3"  # flac, mp3, wav
 OUTPUT_BITRATE = "320k"
+COMPACT_MAX_MB = 18  # gera versão compacta se MP3 > este tamanho
 OUTPUT_CHANNELS = 2  # 1=mono, 2=estéreo
 
 
@@ -113,6 +115,24 @@ def is_cached(path):
     return os.path.exists(path) and os.path.getsize(path) > 1000
 
 
+import re
+
+def load_pronuncia():
+    """Carrega dicionário fonético de config/pronuncia.json."""
+    if not PRONUNCIA_CONFIG.exists():
+        return {}
+    with open(PRONUNCIA_CONFIG) as f:
+        data = json.load(f)
+    return data.get("replacements", {})
+
+
+def apply_pronuncia(text, replacements):
+    """Aplica substituições fonéticas respeitando fronteiras de palavra."""
+    for sigla, fonetica in replacements.items():
+        text = re.sub(r'\b' + re.escape(sigla) + r'\b', fonetica, text)
+    return text
+
+
 def main():
     if len(sys.argv) < 2:
         print("Uso: python scripts/gerar_episodio.py <caminho_guiao.json>")
@@ -136,6 +156,9 @@ def main():
     segments = guiao["segments"]
     language_id = vozes.get("language_id", "pt")
     characters = vozes["characters"]
+    pronuncia = load_pronuncia()
+    if pronuncia:
+        print(f"Dicionário fonético: {len(pronuncia)} regras")
 
     print(f"Episódio: {guiao.get('title', '?')}")
     print(f"Data: {guiao.get('date', '?')}")
@@ -189,6 +212,8 @@ def main():
     for i, seg in enumerate(segments):
         speaker = seg["speaker"]
         text = seg.get("text", "").strip()
+        if text and pronuncia:
+            text = apply_pronuncia(text, pronuncia)
         sfx = seg.get("sfx")
         pace = seg.get("pace", "normal")
         pause_before = seg.get("pause_before", 0)
@@ -386,12 +411,30 @@ def main():
     duration = float(info.get("duration", 0))
     size_mb = int(info.get("size", 0)) / (1024 * 1024)
 
+    # ── Versão compacta (<18MB) ──
+    compact_file = str(episode_dir / "episode_compact.mp3")
+    if size_mb > COMPACT_MAX_MB:
+        target_bitrate = int((COMPACT_MAX_MB * 8 * 1024) / duration)
+        compact_bitrate = f"{min(target_bitrate, 256)}k"
+        print(f"Criando versão compacta ({compact_bitrate})...")
+        compact_cmd = [
+            "ffmpeg", "-y", "-i", output_file,
+            "-b:a", compact_bitrate, "-ac", str(OUTPUT_CHANNELS),
+            compact_file,
+        ]
+        subprocess.run(compact_cmd, capture_output=True, text=True)
+        compact_size = os.path.getsize(compact_file) / (1024 * 1024)
+    else:
+        shutil.copy2(output_file, compact_file)
+        compact_size = size_mb
+
     total_time = time.time() - start_time
 
     print()
     print("═" * 60)
     print(f"EPISÓDIO GERADO!")
     print(f"  MP3:      {output_file} ({size_mb:.1f} MB)")
+    print(f"  Compact:  {compact_file} ({compact_size:.1f} MB)")
     print(f"  Duração:  {int(duration//60)}:{int(duration%60):02d}")
     print(f"  Tempo:    {int(total_time//60)}m{int(total_time%60):02d}s")
     print(f"  Segmentos TTS: {tts_done}")

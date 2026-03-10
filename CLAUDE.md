@@ -2,7 +2,7 @@
 
 ## O que é
 
-Podcast diário gerado por IA em PT-BR. Tom descontraído, caótico, com discussões, zoeiras e interrupções naturais entre personagens de TI. Publicação: segunda, quarta e sexta.
+Podcast diário gerado por IA em PT-BR. Tom descontraído, caótico, com discussões, zoeiras e interrupções naturais entre personagens de TI. Publicação: segunda a sexta.
 
 ## Stack Atual
 
